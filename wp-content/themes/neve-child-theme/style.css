@@ -1,0 +1,27 @@
+/*
+ Theme Name:   Neve Child Theme
+ Theme URI:    https://liv2ra.dk 
+ Description:  Neve child theme 
+ Author:       Liv Thora Bryde Nielsen
+ Author URI:   https://liv2ra.dk
+ Template:     neve
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  neve child theme
+*/
+
+body{
+    background-color: #fff7d9 !important;}
+    
+h1{
+    font-size: 6em !important;
+}
+
+/*. baggrundfarve på container */
+
+
+.elementor-1786 .elementor-element.elementor-element-3b1daeb:not(.elementor-motion-effects-element-type-background), .elementor-1786 .elementor-element.elementor-element-3b1daeb > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #0f20b8 !important;
+}

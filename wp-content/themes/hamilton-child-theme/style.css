@@ -1,0 +1,25 @@
+/*
+ Theme Name:   Hamilton child theme 
+ Theme URI:    https://liv2ra.dk
+ Description:  Hamilton Child Theme
+ Author:       Liv Thora Bryde Nielsen 
+ Author URI:   https://liv2ra.dk
+ Template:     hamilton
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  Hamilton child theme 
+*/
+
+*{background-color:pink;
+    } 
+
+a.site-name {
+   
+    color: yellow;
+    font-size: 3em;
+    letter-spacing: 1.3rem;
+    text-decoration: none;
+ 
+}
