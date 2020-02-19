@@ -5,7 +5,7 @@
  Author:       Liv Thora Bryde Nielsen
  Author URI:   https://liv2ra.dk
  Template:     neve
- Version:      1.0.0
+ Version:      1.0.1
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -13,15 +13,42 @@
 */
 
 body{
-    background-color: #fff7d9 !important;}
+    background-color: #fcf8ee !important;
+    color: #3034ae !important;
+}
     
 h1{
-    font-size: 6em !important;
+    font-size: 8em !important;
+    font-family: 'Bebas Neue' !important;
+    letter-spacing: 3px !important;
 }
 
-/*. baggrundfarve på container */
+h2 {
+    font-size: 3em !important;
+    font-family:'Bebas Neue' !important;
+    letter-spacing:2px !important;
+}
+
+/*. baggrundfarve på containere */
 
 
 .elementor-1786 .elementor-element.elementor-element-3b1daeb:not(.elementor-motion-effects-element-type-background), .elementor-1786 .elementor-element.elementor-element-3b1daeb > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-    background-color: #0f20b8 !important;
+    background-color: #080c6b !important;
+}
+
+.elementor-21 .elementor-element.elementor-element-b9bbd4a:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-b9bbd4a > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #fcf8ee !important;
+}
+
+.elementor-1786 .elementor-element.elementor-element-4167098:not(.elementor-motion-effects-element-type-background), .elementor-1786 .elementor-element.elementor-element-4167098 > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color:#fcf8ee !important;}
+
+.elementor-1786 .elementor-element.elementor-element-bf6ef95:not(.elementor-motion-effects-element-type-background), .elementor-1786 .elementor-element.elementor-element-bf6ef95 > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color:#fcf8ee !important;}
+
+.elementor-1786 .elementor-element.elementor-element-a554f59:not(.elementor-motion-effects-element-type-background), .elementor-1786 .elementor-element.elementor-element-a554f59 > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color:#fcf8ee !important;}
+
+
+/* Header baggrundsfarve */
+
+.header--row .header--row-inner, .header--row .header--row-inner .container .row {
+    background-color:  #fcf8ee !important;;
 }

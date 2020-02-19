@@ -1,6 +1,8 @@
 <?php
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 function my_theme_enqueue_styles() {
+    wp_enqueue_style('font-bebas-neue','https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+   
  
     $parent_style = 'parent-style'; // This is 'neve-style' for the Neve theme.
  
