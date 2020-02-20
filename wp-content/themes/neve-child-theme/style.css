@@ -5,7 +5,7 @@
  Author:       Liv Thora Bryde Nielsen
  Author URI:   https://liv2ra.dk
  Template:     neve
- Version:      1.0.1
+ Version:      1.0.2
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -16,6 +16,9 @@ body{
     background-color: #fcf8ee !important;
     color: #3034ae !important;
 }
+    
+
+/*. fonts  */    
     
 h1{
     font-size: 8em !important;
@@ -29,10 +32,32 @@ h2 {
     letter-spacing:2px !important;
 }
 
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.entry-title a {
+    color: #3034ae !important;
+} 
+
 /*. baggrundfarve på containere */
 
 
 .elementor-1786 .elementor-element.elementor-element-3b1daeb:not(.elementor-motion-effects-element-type-background), .elementor-1786 .elementor-element.elementor-element-3b1daeb > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #080c6b !important;
+}
+
+.elementor-1786 .elementor-element.elementor-element-a554f59:not(.elementor-motion-effects-element-type-background), .elementor-1786 .elementor-element.elementor-element-a554f59 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #080c6b !important;
+}
+
+.elementor-21 .elementor-element.elementor-element-91554a5:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-91554a5 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #080c6b !important;
+}
+
+.elementor-21 .elementor-element.elementor-element-83dea71:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-83dea71 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
     background-color: #080c6b !important;
 }
 
@@ -44,7 +69,10 @@ h2 {
 
 .elementor-1786 .elementor-element.elementor-element-bf6ef95:not(.elementor-motion-effects-element-type-background), .elementor-1786 .elementor-element.elementor-element-bf6ef95 > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color:#fcf8ee !important;}
 
-.elementor-1786 .elementor-element.elementor-element-a554f59:not(.elementor-motion-effects-element-type-background), .elementor-1786 .elementor-element.elementor-element-a554f59 > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color:#fcf8ee !important;}
+
+.elementor-1786 .elementor-element.elementor-element-69f4e79:not(.elementor-motion-effects-element-type-background), .elementor-1786 .elementor-element.elementor-element-69f4e79 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #fcf8ee !important;
+}
 
 
 /* Header baggrundsfarve */
