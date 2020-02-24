@@ -5,7 +5,7 @@
  Author:       Liv Thora Bryde Nielsen
  Author URI:   https://liv2ra.dk
  Template:     neve
- Version:      1.0.2
+ Version:      1.0.3
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -41,6 +41,16 @@ p {
 .entry-title a {
     color: #3034ae !important;
 } 
+
+
+/*. centrerer mine thumbnail billeder */
+
+.nv-post-thumbnail-wrap img {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /*. baggrundfarve på containere */
 
